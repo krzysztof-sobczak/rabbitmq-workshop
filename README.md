@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Login on [http://play-with-docker.com] or install native Docker on your machine
+1. Login on [http://play-with-docker.com](play-with-docker.com) or install native Docker on your machine
 2. Clone this repository somewhere `git clone git@github.com:krzysztof-sobczak/rabbitmq-workshop.git && cd rabbitmq-workshop`
 3. Run containers in background `docker-compose up -d`
 3a. (if using play-with-docker) Whenever **localhost:port** appears replace it with proper URL from play-with-docker panel.
