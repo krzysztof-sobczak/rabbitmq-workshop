@@ -2,10 +2,11 @@
 
 ## Installation
 
-1. [Install docker](https://www.docker.com/products/overview#/install_the_platform) & [Install docker-compose](https://docs.docker.com/compose/install/)
-2. Clone this repository somewhere `git clone git@github.com:olaurendeau/rabbitmq-workshop.git && cd rabbitmq-workshop`
+1. Login on [http://play-with-docker.com] or install native Docker on your machine
+2. Clone this repository somewhere `git clone git@github.com:krzysztof-sobczak/rabbitmq-workshop.git && cd rabbitmq-workshop`
 3. Run containers in background `docker-compose up -d`
-4. Check if :
+3a. (if using play-with-docker) Whenever **localhost:port** appears replace it with proper URL from play-with-docker panel.
+5. Check if :
   * app is properly working at [http://localhost:4446/](http://localhost:4446/)
   * RabbitMQ management interface is available at [http://guest:guest@localhost:15672/#/queues](http://guest:guest@localhost:15672/#/queues)
 
